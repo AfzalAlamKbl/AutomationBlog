@@ -1,12 +1,12 @@
 exports.FormEntry=class FormEntry {
     constructor(page) {
         this.page = page;
-        this.name = page.locator("//input[@id='name']");
-        this.email = page.locator("//input[@id='email']")
-        this.phone = page.locator("//input[@id='phone']");
-        this.address = page.locator("//textarea[@id='textarea']")
-        this.sex = page.locator("//input[@id='male']")
-        this.sunday = page.locator("//input[@id='sunday']")
+        this.name = page.locator('//input[@id="name"]');
+        this.email = page.locator('//input[@id="email"]');
+        this.phone = page.locator('//input[@id="phone"]');
+        this.address = page.locator('//textarea[@id="textarea"]');
+        this.sex = page.locator('//input[@id="male"]');
+        this.sunday = page.locator('//input[@id="sunday"]');
         this.country = page.locator("//select[@id='country']")
     }
 
