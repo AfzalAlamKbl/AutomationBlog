@@ -1,0 +1,10 @@
+{
+  "user1": {
+    "name": "Afzal",
+    "email": "afzal@test.com",
+    "phone": "6370386900",
+    "address": "Kansbahal",
+    "country": "India",
+    "rowData": "Learn Selenium"
+  }
+}
